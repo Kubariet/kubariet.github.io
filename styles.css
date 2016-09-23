@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Route 159';
+	src: url('./Route159.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Seshat';
+	src: url('./Seshat.otf') format('opentype');
+}
+
+p {
+	font-family: 'Route 159';
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+h1 {
+	font-family: 'Seshat';
+	font-size: 4em;
+	margin: 0.25em;
+}
+
+h2 {
+	font-family: 'Route 159';
+	font-size: 1.75em;
+	margin: 0;
+	margin-bottom: 0.25em;
+}
+
+.aligner {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 95vh;
+	justify-content: center;
+}
+
+.aligned-item {
+	flex: 1;
+	max-height: 50%;
+	max-width: 50%;
+	text-align: center;
+}
+
+.box {
+	background-color: #E0E7F9;
+	border-radius: 0.25em;
+	margin-top: 0.5em;
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-top: 0.25em;
+	width: 50%;
+}
+
+.row {
+	display: flex;
+}
+
+.row a {
+	color: black;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}

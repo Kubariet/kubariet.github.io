@@ -35,11 +35,18 @@ h2 {
 	justify-content: center;
 }
 
-.aligned-item {
+.aligned-item { 
 	flex: 1;
 	max-height: 50%;
 	max-width: 50%;
 	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.aligned-item {
+		max-height: 90%;
+		max-width: 90%;
+	}
 }
 
 .box {
